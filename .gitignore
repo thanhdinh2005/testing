@@ -1,0 +1,57 @@
+#################################################
+# Global ignores
+#################################################
+
+# IDE / Editor folders
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+/backend/assignment2/target/
+/backend/assignment2/.mvn/wrapper/maven-wrapper.jar
+/backend/assignment2/.mvn/wrapper/maven-wrapper.properties
+/backend/assignment2/.mvn/
+/backend/assignment2/mvnw
+/backend/assignment2/mvnw.cmd
+
+# Maven specific
+**/target/
+**/logs/
+**/.classpath
+**/.project
+**/.settings/
+
+# Spring Boot configs
+*.log
+*.tmp
+*.bak
+
+# dependencies
+/frontend/product-managament/node_modules/
+
+# production
+/frontend/product-managament/dist/
+
+# local config
+/frontend/product-managament/.env
+/frontend/product-managament/.env.local
+/frontend/product-managament/.env.*.local
+
+# editor settings
+/frontend/product-managament/.DS_Store
+
+#################################################
+# Root project level
+#################################################
+node_modules/
+dist/
+.env
+.env.*
+*.local
+*.log
+.yarn/
+.pnp.*
